@@ -8,9 +8,9 @@ import logo from "/img/logo.png";
 
 export function Header() {
   return (
-    <header className="flex justify-between w-full max-w-6xl h-14 mx-auto mt-20">
+    <header className="flex justify-between w-full max-w-6xl h-14 mx-auto">
       <img className="h-14 object-contain mr-11" src={logo} alt="logo" />
-      <div className="flex w-full items-center gap-4">
+      <div className="flex w-full max-w-2xl items-center gap-4 ">
         <nav className="flex justify-around items-center w-full max-w-2xl font-medium text-zinc-600">
           <Link className="" to={"/"}>
             Home
