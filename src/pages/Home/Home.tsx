@@ -3,9 +3,9 @@ export function Home() {
   return (
     <main className="w-full max-w-6xl h-96 mx-auto flex justify-center items-center mt-30">
       <div className="w-full flex items-center gap-5 flex-col-reverse md:flex-row justify-between">
-        <h1 className="text-4xl md:text-6xl w-96">
+        <h1 className="text-3xl text-center md:text-left md:text-6xl w-96">
           Hello 👋, My name is{" "}
-          <span className=" text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent">
+          <span className=" text-3xl md:text-6xl font-bold bg-gradient-to-r from-blue-500 to-purple-700 bg-clip-text text-transparent">
             Alessandro Vieira
           </span>{" "}
           I am a Dev Front-end

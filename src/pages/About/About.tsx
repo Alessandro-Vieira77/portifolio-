@@ -4,13 +4,15 @@ import { CiLocationOn } from "react-icons/ci";
 export function About() {
   return (
     <main
-      className="w-full max-w-6xl min-h-96 mx-auto flex mt-20 
+      className="w-full max-w-6xl min-h-96 mx-auto flex mt-8 md:mt-20 
   "
     >
       <div className="flex flex-col gap-8 w-2xl">
         <div>
-          <h1 className="text-4xl font-bold text-indigo-900 mb-4">About</h1>
-          <p className="text-base text-zinc-500">
+          <h1 className="text-2xl md:text-4xl font-bold text-indigo-900 mb-4">
+            About
+          </h1>
+          <p className="text-xs md:text-base text-zinc-500">
             The Generator App is an online tool that helps you to export
             ready-made templates ready to work as your future website. It helps
             you to combine slides, panels and other components and export it as
@@ -18,13 +20,15 @@ export function About() {
           </p>
         </div>
         <div className="flex gap-4 flex-col w-full">
-          <h1 className="text-4xl font-bold text-indigo-900 mb-4">
+          <h1 className="text-2xl md:text-4xl font-bold text-indigo-900 mb-4">
             Work Experience
           </h1>
           {/* Junior Web Developer */}
           <div className="w-full">
             <div className="w-full flex items-center justify-between mb-1">
-              <p className="text-xl text-zinc-800">Junior Web Developer</p>
+              <p className="text-sm md:text-xl text-zinc-800">
+                Junior Web Developer
+              </p>
               <p className="w-20 h-6 flex justify-center items-center text-green-700 bg-green-300 rounded-full text-xs font-bold">
                 Full Time
               </p>
@@ -47,7 +51,9 @@ export function About() {
 
           <div className="w-full">
             <div className="w-full flex items-center justify-between mb-1">
-              <p className="text-xl text-zinc-800">Junior Web Developer</p>
+              <p className="text-sm md:text-xl text-zinc-800">
+                Junior Web Developer
+              </p>
               <p className="w-20 h-6 flex justify-center items-center text-green-700 bg-green-300 rounded-full text-xs font-bold">
                 Full Time
               </p>
@@ -70,7 +76,9 @@ export function About() {
 
           <div className="w-full">
             <div className="w-full flex items-center justify-between mb-1">
-              <p className="text-xl text-zinc-800">Junior Web Developer</p>
+              <p className="text-sm md:text-xl text-zinc-800">
+                Junior Web Developer
+              </p>
               <p className="w-20 h-6 flex justify-center items-center text-green-700 bg-green-300 rounded-full text-xs font-bold">
                 Full Time
               </p>
@@ -93,11 +101,13 @@ export function About() {
         </div>
         {/* Education */}
         <div>
-          <h1 className="text-4xl font-bold text-indigo-900 mb-4">Education</h1>
+          <h1 className="text-2xl md:text-4xl font-bold text-indigo-900 mb-4">
+            Education
+          </h1>
           <div className="w-full">
             <div className="w-full flex items-center justify-between mb-1">
-              <p className="text-xl text-zinc-800">
-                Bachelor in Electronics & Communication
+              <p className="text-sm md:text-xl text-zinc-800">
+                Software engineering
               </p>
               <p className="w-20 h-6 flex justify-center items-center text-green-700 bg-green-300 rounded-full text-xs font-bold">
                 Full Time

@@ -1,9 +1,15 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../Header/Header";
+import { Menu } from "../Menu/Menu";
 export function Layout() {
   return (
-    <div className="h-screen pt-10  mx-5">
-      <Header />
+    <div className="h-screen  mx-5">
+      <div className=" hidden md:flex pt-10">
+        <Header />
+      </div>
+      <div className=" md:hidden">
+        <Menu />
+      </div>
       <Outlet />
     </div>
   );
