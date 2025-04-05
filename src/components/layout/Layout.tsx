@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { Header } from "../Header/Header";
-import { Menu } from "../Menu/Menu";
+import { Header } from "../../components/Header/Header";
+import { Menu } from "../../components/Menu/Menu";
 export function Layout() {
   return (
     <div className="h-screen w-full pl-5 pr-5 ">
