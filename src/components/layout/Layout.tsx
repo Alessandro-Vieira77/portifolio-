@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { Header } from "../../components/Header/Header";
-import { Menu } from "../../components/Menu/Menu";
+import { Header } from "../Header/Header";
+import { Menu } from "../Menu/Menu";
 export function Layout() {
   return (
     <div className="flex flex-col min-h-screen w-full pl-5 pr-5">
