@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 
-export function Menu() {
+export default function Menu() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
