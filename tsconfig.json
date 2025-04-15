@@ -8,10 +8,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@components/*": ["components/*"],
-      "@pages/*": ["pages/*"],
-      "@utils/*": ["utils/*"],
-      "@assets/*": ["assets/*"]
+      "@components/*": ["components/*"]
     }
   }
 }
