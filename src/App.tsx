@@ -5,7 +5,7 @@ import { About } from "./pages/About/About";
 import { TechStack } from "./pages/TechStack/TechStack";
 import { Projects } from "./pages/Projects/Projects";
 import { Contacts } from "./pages/Contacts/Contacts";
-import Layout from "./components/layout/Layout";
+import Layout from "../src/components/layout/Layout";
 
 const router = createBrowserRouter([
   {

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-666666: "#666666";
   --color-42446E: "#42446E";
   --spacing-567: 35.4375rem;
